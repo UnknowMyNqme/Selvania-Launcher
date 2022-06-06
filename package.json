@@ -1,12 +1,12 @@
 {
-    "name": "Selvania-Launcher",
-    "version": "3.0.0-pre.2",
-    "productName": "Selvania Launcher",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "Valharion",
+    "version": "1.0.1",
+    "productName": "Valharion",
+    "description": "Launcher officiel Valharion",
     "main": "src/index.html",
-    "author": "Luuxis",
+    "author": "Luuxis, HedaLexa",
     "window": {
-        "title": "Selvania update",
+        "title": "Valharion update",
         "width": 400,
         "height": 500,
         "frame": false,
@@ -18,7 +18,7 @@
         "node": "16.x.x"
     },
     "chromium-args": "--enable-logging --v=1",
-    "url": "http://launcher.selvania.fr",
+    "url": "http://vps-1739c486.vps.ovh.net",
     "user": false,
     "webkit": {
         "plugin": true
@@ -34,7 +34,7 @@
     },
     "license": "CC0",
     "build": {
-        "appId": "Selvania Launcher",
+        "appId": "Valharion",
         "nwVersion": "0.64.1",
         "packed": false,
         "args": ["--user-data-dir=./AppData/launcher data"],
@@ -60,7 +60,7 @@
         "overriddenProperties": {
             "main": "app/index.html",
             "window": {
-                "title": "Selvania update",
+                "title": "Valharion update",
                 "width": 400,
                 "height": 500,
                 "frame": false,
@@ -71,16 +71,16 @@
         },
         "outputPattern": "${NAME}-${PLATFORM}-${ARCH}",
         "win": {
-            "productName": "Selvania Launcher",
-            "companyName": "Selvania Launcher",
+            "productName": "Valharion",
+            "companyName": "Valharion",
             "copyright": "copyright",
             "icon": "src/assets/images/icon.ico"
         },
         "mac": {
-            "displayName": "Selvania-Launcher",
+            "displayName": "Valharion",
             "copyright": "copyright",
             "plistStrings": {
-                "CFBundleIdentifier": "Selvania-Launcher"
+                "CFBundleIdentifier": "Valharion"
             }
         },
         "nsis": {
